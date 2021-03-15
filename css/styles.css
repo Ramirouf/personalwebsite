@@ -1,0 +1,25 @@
+/* Element */
+
+a {
+  text-decoration: none;
+}
+
+/* Class */
+
+.header-nav {
+  text-decoration: none;
+}
+
+.header-nav__item:hover {
+  color: brown;
+}
+
+.header-nav__item:active {
+  color: chartreuse;
+}
+
+.header-nav__item::after {
+  content: " | ";
+}
+
+/* ID */
