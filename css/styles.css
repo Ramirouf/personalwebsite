@@ -1,8 +1,8 @@
-/** {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-}*/
+* {
+  /*box-sizing: border-box;*/
+  /*padding: 0;
+  margin: 0;*/
+}
 
 /* Element */
 
@@ -44,6 +44,11 @@ img {
 
 .header-nav__item::after {
   content: " | ";
+}
+
+.main-form {
+  display: flex;
+  flex-direction: column;
 }
 
 .footer-a::after {
