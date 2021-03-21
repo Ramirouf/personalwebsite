@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/styles.css" />
     <title>Ramiro Uffelmann</title>
   </head>
+
   <body>
     <header>
       <nav class="header-nav">
@@ -23,13 +24,19 @@
       <section id="photo">
         <h1>Ramiro Uffelmann</h1>
         <figure>
-          <img src="https://i.imgur.com/DcYmFB7.jpeg" alt="Ramiro Uffelmann, low quality" />
+          <img
+            src="https://i.imgur.com/DcYmFB7.jpeg"
+            alt="Ramiro Uffelmann, low quality"
+          />
           <figcaption>Ramiro Uffelmann</figcaption>
         </figure>
       </section>
       <section id="introduction">
         <h1>Introducción</h1>
-        <p>Técnico informático, amante de la informática, electrónica y futuro desarrollador web</p>
+        <p>
+          Técnico informático, amante de la informática, electrónica y futuro
+          desarrollador web
+        </p>
       </section>
       <section id="workingExp">
         <h1>Experiencia laboral</h1>
@@ -47,7 +54,10 @@
               <h2>Técnico de PC y electrónica</h2>
               <h3>Autónomo</h3>
               <p>Febrero 2018 - actualidad</p>
-              <p>Servicio técnido de computadoras, notebook y electrónica, de forma independiente</p>
+              <p>
+                Servicio técnido de computadoras, notebook y electrónica, de
+                forma independiente
+              </p>
             </article>
           </li>
         </ul>
@@ -70,45 +80,100 @@
           <h2>Negocio de bienes raíces</h2>
           <a href="https://bienesraicesuffelmann.netlify.app/" target="_blank">
             <figure>
-              <img src="https://i.imgur.com/RYiPPKi.jpg" alt="Imagen bienes raíces" />
+              <img
+                src="https://i.imgur.com/RYiPPKi.jpg"
+                alt="Imagen bienes raíces"
+              />
               <p>Negocio de bienes raíces</p>
-            </figure></a
-          >
+            </figure>
+          </a>
         </article>
         <article id="main-section__article">
           <h2>Blog de café</h2>
           <a href="https://blogcafeuffelmann.netlify.app/" target="_blank">
             <figure>
-              <img src="https://i.imgur.com/bYLSPqA.jpg" alt="Imagen blog de café" />
+              <img
+                src="https://i.imgur.com/bYLSPqA.jpg"
+                alt="Imagen blog de café"
+              />
               <p>Blog de café</p>
-            </figure></a
-          >
+            </figure>
+          </a>
         </article>
       </section>
-      <form 
-      class="main-form" 
-      action="https://formspree.io/f/xeqpypkd" 
-      method="POST">
-      <fieldset><legend>Contacto</legend>
-        <label for="name">
-          <span>Nombre</span>
-          <input type="text" id="name" name="name" autocomplete="name" placeholder="Nombre" required />
-        </label>
-        <label for="email">
-          <span>Correo electrónico</span>
-          <input type="email" id="email" name="email" autocomplete="email" placeholder="Correo electrónico" required />
-        </label>
-        <label for="message">
-          <span>Mensaje</span>
-          <input type="text" id="message" name="message" placeholder="Escriba su mensaje" required />
-        </label>
-        <input type="submit" />
-      </form></fieldset>
-      </main>
+      <form
+        class="main-form"
+        action="https://formspree.io/f/xeqpypkd"
+        method="POST"
+      >
+        <fieldset>
+          <legend>Contacto</legend>
+          <label for="name">
+            <span>Nombre</span>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              autocomplete="name"
+              placeholder="Nombre"
+              required
+            />
+          </label>
+          <label for="email">
+            <span>Correo electrónico</span>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              autocomplete="email"
+              placeholder="Correo electrónico"
+              required
+            />
+          </label>
+          <label for="message">
+            <span>Mensaje</span>
+            <input
+              type="text"
+              id="message"
+              name="message"
+              placeholder="Escriba su mensaje"
+              required
+            />
+          </label>
+          <input type="submit" />
+          <label for="servicios">
+            <span>Seleccione el servicio que le interesa</span>
+            <select name="servicios" id="servicios">
+              <option value="desarrollo_web">Desarrollo Web</option>
+              <option value="servicio_tecnico">Servicio Técnico</option>
+            </select>
+          </label>
+          <label for="como_llegaste">
+            <span>Cómo llegaste a este sitio ?</span>
+            <input list="como_llegaste" name="como_llegaste" />
+            <datalist id="como_llegaste">
+              <option value="Whatsapp"></option>
+              <option value="Google"></option>
+              <option value="LinkedIn"></option>
+            </datalist>
+          </label>
+        </fieldset>
+      </form>
+    </main>
     <footer>
-      <a class="footer-a" href="https://www.linkedin.com/in/ramiro-uffelmann-56a4a147/" target="_blank">LinkedIn</a>
-      <a class="footer-a" href="https://github.com/Ramirouf" target="_blank">My GitHub</a>
-      <a class="footer-a" href="https://stackoverflow.com/users/15396063/ramiro-uffelmann" target="_blank"
+      <a
+        class="footer-a"
+        href="https://www.linkedin.com/in/ramiro-uffelmann-56a4a147/"
+        target="_blank"
+        >LinkedIn</a
+      >
+      <a class="footer-a" href="https://github.com/Ramirouf" target="_blank"
+        >My GitHub</a
+      >
+      <a
+        class="footer-a"
+        href="https://stackoverflow.com/users/15396063/ramiro-uffelmann"
+        target="_blank"
         >My StackOverflow</a
       >
     </footer>
